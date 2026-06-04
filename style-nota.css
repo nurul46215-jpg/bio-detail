@@ -1,0 +1,40 @@
+
+.nota {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0,05);
+    border-top: 5px solid #764ba2;
+}
+
+.nota h2 {
+    font-size: 18px;
+    color: #5b3684;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.nota ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nota li {
+    margin-bottom: 15px;
+}
+
+
+.nota a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.nota a:hover {
+    text-decoration: overline;
+    color: #4ba285;
+}

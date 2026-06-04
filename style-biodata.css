@@ -1,0 +1,75 @@
+
+.gambar {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    position: relative;
+    border: 2px solid #ffffff;
+}
+
+.frame-belakang {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #e2f2ed;
+    border-radius: 15px;
+    transform: translate(10px, -10px) rotate(6deg);
+    z-index: 1;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+
+.gambar img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    z-index: 2;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+
+.biodata {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0,05);
+    border-top: 5px solid #4ba285;
+}
+
+.biodata h2 {
+    font-size: 18px;
+    color: #3b7a64;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.info:last-child {
+    border-bottom: none;
+}
+
+.info i {
+    font-size: 18px;
+    color: #4ba285;
+    width: 35px;
+}
+
+.info span {
+    font-size: 15px;
+    color: #334155;
+    font-weight: 500;
+}
